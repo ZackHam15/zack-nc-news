@@ -1,16 +1,16 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./components/Navbar";
+import NavBar from "./components/Navbar";
 import Header from "./components/Header";
-import Articles from "./components/Articles";
+import Article from "./components/Article";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <Header />
-      <Articles />
+      <Article />
     </div>
   );
 }
